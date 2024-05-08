@@ -6,7 +6,7 @@ version: "2.0"
 services:
   web:
     image: 
-      <image_name>:<version>
+      nodegoat:v1
     restart: on-failure
     ports:
       - "3000:3000"
